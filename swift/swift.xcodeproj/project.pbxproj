@@ -22,6 +22,7 @@
 		11B4243024DB96AB009CBEB6 /* AstronomyPhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B4242F24DB96AB009CBEB6 /* AstronomyPhotoDetailViewController.swift */; };
 		11B4243324DB9717009CBEB6 /* KSIAstronomyPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B4243224DB9717009CBEB6 /* KSIAstronomyPhoto.m */; };
 		11B4243624DB972B009CBEB6 /* KSIAstronomyPhotoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B4243524DB972B009CBEB6 /* KSIAstronomyPhotoController.m */; };
+		11B4243824DB9E2F009CBEB6 /* Manifest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B4243724DB9E2F009CBEB6 /* Manifest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		11B4243224DB9717009CBEB6 /* KSIAstronomyPhoto.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSIAstronomyPhoto.m; sourceTree = "<group>"; };
 		11B4243424DB972B009CBEB6 /* KSIAstronomyPhotoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSIAstronomyPhotoController.h; sourceTree = "<group>"; };
 		11B4243524DB972B009CBEB6 /* KSIAstronomyPhotoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSIAstronomyPhotoController.m; sourceTree = "<group>"; };
+		11B4243724DB9E2F009CBEB6 /* Manifest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manifest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 			children = (
 				11B4243124DB9717009CBEB6 /* KSIAstronomyPhoto.h */,
 				11B4243224DB9717009CBEB6 /* KSIAstronomyPhoto.m */,
+				11B4243724DB9E2F009CBEB6 /* Manifest.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 				11B4241724DB929A009CBEB6 /* main.m in Sources */,
 				11B4242824DB9343009CBEB6 /* URL+Secure.swift in Sources */,
 				11B4243024DB96AB009CBEB6 /* AstronomyPhotoDetailViewController.swift in Sources */,
+				11B4243824DB9E2F009CBEB6 /* Manifest.swift in Sources */,
 				11B4243624DB972B009CBEB6 /* KSIAstronomyPhotoController.m in Sources */,
 				11B4240924DB9286009CBEB6 /* SceneDelegate.m in Sources */,
 				11B4242724DB9343009CBEB6 /* LSIErrors.m in Sources */,
