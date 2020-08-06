@@ -9,8 +9,15 @@
 #import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN
+NS_SWIFT_NAME(AstronomyPhoto)
 
 @interface KSIAstronomyPhoto : NSObject
+
+@property (nonatomic, readonly) int idNumber;
+@property (nonatomic, readonly) int sol;
+@property (nonatomic, readonly) NSURL *imageURL;
+@property (nonatomic, readonly) NSString *earthDate;
+@property (nonatomic, readonly) NSString *camera;
 
 @end
 
